@@ -4,3 +4,38 @@
     src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf)
     format('truetype');
 }
+
+:root{
+    --clr-neutral-hsl-100: 0, 0%, 100%;
+    --clr-neutral-hsl-200: 221, 100%, 96%;
+    --clr-neutral-hsl-300: 241, 100%, 89%;
+    --clr-neutral-hsl-700: 224, 30%, 27%;
+
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(221, 100%, 96%);
+    --clr-neutral-300: hsl(241, 100%, 89%);
+    --clr-neutral-700: hsl(224, 30%, 27%);
+
+    --clr-prm-background-hsl-400: 252, 100%, 67%;
+    --clr-scn-background-hsl-400: 241, 81%, 54%;
+    --clr-prm-circle-hsl-500: 256, 72%, 46%;
+    --clr-scn-circle-hsl-500: 241, 72%, 46%;
+
+    --clr-prm-background-400: hsl(252, 100%, 67%);
+    --clr-scn-background-400: hsl(241, 81%, 54%);
+    --clr-prm-circle-500: hsl(256, 72%, 46%);
+    --clr-scn-circle-500: hsl(241, 72%, 46%);
+
+    --gradient-primary: linear-gradient(var(--clr-prm-background-400), var(--clr-scn-background-400));
+    --gradient-to-transperant: linear-gradient(var(--clr-prm-circle-500), hsl(var(--clr-scn-circle-500), 0));
+
+    --clr-accent-hsl-1: 0, 100%, 67%;
+    --clr-accent-hsl-2: 39, 100%, 56%;
+    --clr-accent-hsl-3: 166, 100%, 37%;
+    --clr-accent-hsl-4: 234, 85%, 45%;
+
+
+
+
+
+}
